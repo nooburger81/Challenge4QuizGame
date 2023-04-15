@@ -1,6 +1,5 @@
 # Challenge4QuizGame
 Enter the Quiz Game. Leave victorious. 
-- [x] # Prework Study Guide Webpage
 
 ## Description
 
