@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Quiz Show Game</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+    <body>
+        <div id="top-line">
+            <a href="/viewHS.html">View High Scores</a>
+                <div id="timer">Timer</div></div>
+                
+        <header id="welcome-start">
+            <h1>Welcome to The Quiz Game</h1>
+            <p>The rules are simple: Answer correctly, and no time will be lost. Answer incorrectly, and you will lose time.<br>I will remember.</p>
+            <button id="startQuiz">Enter The Quiz Game</button>
+        </header>
+        
+      
+        <figure id="quiz-box" class="hide">
+            <div id="question">Question</div>             
+            <div id="answer-box" class="button-grid">
+           <button id="A" onclick="checkAnswer('A')">A</button>
+           <button id="B" onclick="checkAnswer('B')">B</button>
+           <button id="C" onclick="checkAnswer('C')">C</button>
+           <button id="D" onclick="checkAnswer('D')">D</button>
+                </div>
+            </figure>
+            <script src="./assets/js/script.js"></script>
+    </body>
+   
+</html>
+
